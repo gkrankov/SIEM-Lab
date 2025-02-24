@@ -1,0 +1,14 @@
+📁 SIEM-Log-Analysis  
+├── 📄 README.md                      # Overview of the repository (you're here!)  
+├── 📁 elk-setup-guide                # Elastic Stack deployment tutorials  
+│   ├── 📄 elk-setup-guide.md         # Step-by-step Elastic Stack installation  
+│   └── 📄 elk-demo-lab.md            # Sample lab: Brute-force attack detection  
+├── 📁 sample-logs                    # Real-world logs and PCAPs for analysis  
+│   ├── 📄 ssh-brute-force.pcap       # PCAP of brute-force attempts  
+│   └── 📄 phishing-email-logs.json   # Sample email gateway logs  
+├── 📁 splunk-queries                 # Splunk SPL for SOC use cases  
+│   ├── 📄 suspicious-logins.spl      # Detect anomalous sign-ins  
+│   └── 📄 malware-c2-alerts.spl      # Identify C2 traffic patterns  
+└── 📁 screenshots                    # Visual evidence of your work  
+    ├── 📄 kibana-dashboard.png       # SIEM dashboard for brute-force attacks  
+    └── 📄 wireshark-analysis.png     # Tagged malicious traffic in Wireshark  
